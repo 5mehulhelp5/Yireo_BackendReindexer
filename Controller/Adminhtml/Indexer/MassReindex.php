@@ -86,7 +86,7 @@ class MassReindex extends \Magento\Backend\App\Action
             $totalTime = microtime(true) - $startTime;
             $totalTime = round($totalTime, 2);
 
-            $message = sprintf(__('%s was reindexed in %s seconds'), $indexer->getTitle(), $totalTime);
+            $message = sprintf((string)__('%s was reindexed in %s seconds'), $indexer->getTitle(), $totalTime);
             $this->messageManager->addSuccessMessage($message);
 
         } catch (LocalizedException $e) {
