@@ -3,7 +3,7 @@
     "composer_name": "yireo/magento2-backend-reindexer",
     "sequence": [
         "Magento_Backend",
-        "Magento_Store"
+        "Magento_Indexer"
     ],
     "phpcs_severity": "7",
     "php_versions": [
@@ -15,9 +15,11 @@
     "skip_magento_versions": [],
     "skip_css_utils": false,
     "modules": [
+        "Magento_AdminNotification",
         "Magento_Backend",
         "Magento_Csp",
         "Magento_Directory",
+        "Magento_Indexer",
         "Magento_Store",
         "Magento_Theme"
     ],
