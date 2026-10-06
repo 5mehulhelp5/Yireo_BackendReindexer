@@ -49,7 +49,7 @@ class MassReindex extends \Magento\Backend\App\Action
         $indexerIds = $this->getRequest()->getParam('indexer_ids');
         $this->reindexAll($indexerIds);
 
-        $this->_redirect('indexer/indexer/list');
+        return $this->_redirect('indexer/indexer/list');
     }
 
     /**
