@@ -6,8 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 06 October 2026
+### Fixed
+- Fix type error in PHP 8.4+
+
 ## [0.0.3] - 29 July 2020
 ### Added
 - Magento 2.4 compatibility
 
 ## [0.0.2] - Undocumented
+- Initial changes
+
+## [0.0.1] - Undocumented
+- Initial release
