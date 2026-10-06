@@ -38,7 +38,7 @@ class MassReindex extends \Magento\Backend\App\Action
         Context $context
     ) {
         $this->indexerRegistry = $indexerRegistry;
-        return parent::__construct($context);
+        parent::__construct($context);
     }
 
     /**
