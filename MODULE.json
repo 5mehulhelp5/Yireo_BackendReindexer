@@ -1,0 +1,28 @@
+{
+    "module_name": "Yireo_BackendReindexer",
+    "composer_name": "yireo/magento2-backend-reindexer",
+    "sequence": [
+        "Magento_Backend",
+        "Magento_Store"
+    ],
+    "phpcs_severity": "7",
+    "php_versions": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4"
+    ],
+    "skip_magento_versions": [],
+    "skip_css_utils": false,
+    "modules": [
+        "Magento_Backend",
+        "Magento_Csp",
+        "Magento_Directory",
+        "Magento_Store",
+        "Magento_Theme"
+    ],
+    "components": [],
+    "config": [],
+    "tests": [],
+    "phpstan_level": 1
+}
