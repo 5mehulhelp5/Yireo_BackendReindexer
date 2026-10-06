@@ -21,8 +21,8 @@
         "php": ">=8.2 <8.6"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "composer/composer": "*@dev"
+        "composer/composer": "*@dev",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
